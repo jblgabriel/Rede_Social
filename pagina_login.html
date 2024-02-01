@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entrar na minha conta</title>
+
+    <link rel="stylesheet" href="style_login.css">
+
+    <script src="script_login.js" defer></script>
+</head>
+<body>
+    <h2>Faça seu login</h2>
+    <form action="/login" method="POST">
+        <label for="email_login">Email:</label>
+        <input type="email" id="email_login" name="email_login" required placeholder="Seu e-mail... " autofocus>
+        <br><br>
+        <label for="senha_login">Senha:</label>
+        <input type="password" id="senha_login" name="senha_login" required placeholder="Sua senha... "><br><br>
+
+            <button id="btn_entar" type="submit">Entrar</button>
+            <br>
+            <button id="btn_voltar" type="button">Voltar a página inicial</button>
+
+            <p>Ainda não tem uma conta? <a href="pagina_cadastro.html">Cadastre-se</a></p>  
+
+
+
+
+    </form>
+
+
+    
+</body>
+
+
+</body>
+</html>
